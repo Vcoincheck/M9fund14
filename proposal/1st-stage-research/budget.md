@@ -1,6 +1,6 @@
 # Budget
 
-### 💰 Detailed Budget Allocation by Timeline & Role (Total: **78,369 ADA**)
+### 💰 Detailed Budget Allocation by Timeline & Role (Total: **86,319 ADA**)
 
 ### Budget by milestones
 
