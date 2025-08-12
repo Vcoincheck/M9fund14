@@ -84,8 +84,9 @@ Roles & Hours:
 * Core Developer: 60h × 90 = 5,400 ADA
 * Documentation Specialist: 30h × 85 = 2,550 ADA
 * DevOps & Tooling Engineer: 25h × 65 = 1,625 ADA
-* Program Manager: 40h × 80 = 3,200 ADA\
-  Cost: 18,229 ADA
+* Program Manager: 40h × 80 = 3,200 ADA
+
+**Public Release & Packaging**
 
 ***
 

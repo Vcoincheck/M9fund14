@@ -1,6 +1,8 @@
 # Proposal
 
-### 🔎 **Problem: Lack of a standardized SDK for implementing commit–reveal voting on Midnight**
+### &#x20;**Problem:**&#x20;
+
+**Lack of a standardized SDK for implementing commit–reveal voting on Midnight**
 
 Building DAO applications with strong privacy is a core goal of the Midnight ecosystem. One of the most critical components of these DAO systems is the anonymous voting mechanism, often implemented using the commit–reveal voting model.
 
@@ -19,7 +21,9 @@ This forces each development team to "start from scratch," rewriting voting logi
 * Difficulty reusing code from existing prototypes or dApps.
 * No common technical guidelines or standards for new teams joining the ecosystem.
 
-### 📘 Solution: Building a Standardized Modular SDK for Commit–Reveal Voting on Midnight
+### &#x20;Solution:&#x20;
+
+Building a Standardized Modular SDK for Commit–Reveal Voting on Midnight
 
 This proposal focuses on **productizing** the research outcomes from Proposal 1 by delivering a **developer-ready SDK** for private voting on Midnight.
 
@@ -71,7 +75,7 @@ The SDK provides an abstraction interface that does not directly depend on Midni
 * Faster adaptation to protocol changes in Midnight.
 * Decoupling core voting logic from low-level blockchain dependencies.
 
-📅 **Roadmap (4 Milestones)**
+### &#x20;**Roadmap**&#x20;
 
 ✅ **Milestone 1: SDK Architecture Standardization**\
 **Description:**\
@@ -143,15 +147,81 @@ Test, package the SDK, and release it as open source.
 * Changelog + release notes
 * Final report submitted to Catalyst
 
-### BUDGET
+### Budget
 
-| Milestone | Nội dung chính                | Chi phí (ADA) |
-| --------- | ----------------------------- | ------------- |
-| M1        | Chuẩn hóa kiến trúc SDK       | 18,000        |
-| M2        | Phát triển tính năng SDK      | 27,000        |
-| M3        | Tài liệu & tích hợp mẫu       | 21,500        |
-| M4        | Release bản public & đóng gói | 23,500        |
-| **Tổng**  |                               | **90,000**    |
+**Total budget 92,738 ADA**
+
+#### Milestone 1 – SDK Architecture Standardization
+
+**Tasks:**
+
+* Refactor vote-core into a library
+* Define clear traits/interfaces
+* Design API & Rust-standard error handling
+
+**Budget Breakdown (18,229 ADA):**
+
+| Task                            | % Estimate | Budget (ADA) | Notes                                          |
+| ------------------------------- | ---------- | ------------ | ---------------------------------------------- |
+| Refactor vote-core into library | 50%        | 9,115        | Mainly Core Developer + Solution Architect     |
+| Define clear traits/interfaces  | 30%        | 5,469        | Solution Architect + DevOps & Tooling Engineer |
+| Design API & error handling     | 20%        | 3,645        | Solution Architect + Documentation Specialist  |
+
+***
+
+#### Milestone 2 – SDK Feature Development
+
+**Tasks:**
+
+* Implement VoteSession, CommitProof, TallyEngine
+* Set up epoch/slot/lock-time simulation
+* Write unit tests for each module
+
+**Budget Breakdown (31,068 ADA):**
+
+| Task                            | % Estimate | Budget (ADA) | Notes                                      |
+| ------------------------------- | ---------- | ------------ | ------------------------------------------ |
+| Implement core modules          | 60%        | 18,641       | Mainly Core Developer + Solution Architect |
+| Epoch/slot/lock-time simulation | 20%        | 6,214        | Core Developer + DevOps & Tooling Engineer |
+| Unit tests                      | 20%        | 6,214        | Documentation Specialist + Core Developer  |
+
+***
+
+#### Milestone 3 – Documentation & Sample Integration Kit
+
+**Tasks:**
+
+* API documentation + JSON schema
+* Code demo sample app
+* Write integration guide
+
+**Budget Breakdown (23,095 ADA):**
+
+| Task                            | % Estimate | Budget (ADA) | Notes                                      |
+| ------------------------------- | ---------- | ------------ | ------------------------------------------ |
+| API documentation + JSON schema | 40%        | 9,238        | Documentation Specialist                   |
+| Demo sample app coding          | 40%        | 9,238        | Core Developer + DevOps & Tooling Engineer |
+| Integration guide writing       | 20%        | 4,619        | Documentation Specialist + Program Manager |
+
+***
+
+#### Milestone 4 – Public Release & Packaging
+
+**Tasks:**
+
+* Check license compliance, clean codebase
+* Benchmark and optimize performance
+* Release v1.0.0 on GitHub
+
+**Budget Breakdown (20,346 ADA):**
+
+| Task                             | % Estimate | Budget (ADA) | Notes                                      |
+| -------------------------------- | ---------- | ------------ | ------------------------------------------ |
+| License compliance & code clean  | 30%        | 6,104        | Documentation Specialist + Program Manager |
+| Benchmark & optimize performance | 40%        | 8,138        | Core Developer + DevOps & Tooling Engineer |
+| Release & reporting              | 30%        | 6,104        | Program Manager + Documentation Specialist |
+
+###
 
 ### **Value for money**
 
