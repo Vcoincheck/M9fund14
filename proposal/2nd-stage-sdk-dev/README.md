@@ -18,7 +18,7 @@ layout:
 
 # Proposal 2 - SDK
 
-## 🛠️ Midnight DAO Voting SDK
+## 🛠️ Midnight DAO privacy Voting SDK
 
 This document provides a **production-ready SDK** for integrating **anonymous voting** into DAO applications using the [Midnight](https://midnight.network) privacy sidechain on Cardano.
 
@@ -52,12 +52,6 @@ To deliver a modular, developer-friendly SDK enabling:
 * Midnight-based ZK voting flow implementations
 * Education and research on privacy-preserving coordination
 
-### 📌 Status
+###
 
-✅ Actively maintained\
-🔧 Built with production integration in mind\
-📖 Full documentation and test cases included
-
-### 📬 Contact
-
-For collaboration or support, please contact the SDK team.
+###

@@ -1,26 +1,43 @@
 # Roadmap
 
-#### 🧩 **Milestone 1 – Project Setup & SDK Design**
+**🧩 Milestone 1 – Project Setup & SDK Design**
 
-* Thiết lập repo & cấu trúc codebase ban đầu.
-* Xác định interface giữa `vote-core`, `vote-test-env`, `vote-cli`.
-* Thiết kế JSON schema cho các thực thể chính: `poll`, `voterSet`, `vote`, `result`.
-* Lập kế hoạch kỹ thuật và chia task theo module.
+* Set up the GitHub repository and initial codebase structure.
+* Define interfaces between **vote-core**, **vote-test-env**, and **vote-cli**.
+* Design JSON schemas for key entities: **poll**, **voterSet**, **vote**, and **result**.
+* Prepare the technical plan and break down tasks by module.
 
-#### 🔧 **Milestone 2 – Develop vote-core & test-env**
+Timeline: 1st month
 
-* Xây dựng logic core: tạo poll, casting vote, tally, export kết quả.
-* Tạo môi trường test giả lập (`vote-test-env`) dùng dữ liệu JSON và file voter list.
-* Viết unit test cơ bản cho từng hàm chính trong core.
+***
 
-#### 💻 **Milestone 3 – Build CLI Tool & Draft Docs**
+**🔧 Milestone 2 – Develop vote-core & test-env**
 
-* Xây dựng `vote-cli` dùng Node.js CLI (hoặc Rust CLI): nhập poll, vote, xem kết quả.
-* Tích hợp `vote-core` vào CLI & test-env.
-* Viết tài liệu kỹ thuật: cấu trúc project, sơ đồ module, hướng dẫn sử dụng.
+* Implement **core voting logic**: create polls, cast votes, tally results, and export final outcomes.
+* Build the simulated testing environment (**vote-test-env**) using JSON datasets and voter list files.
+* Write basic unit tests for each main function in the core module to ensure correctness.
 
-#### 🧪 **Milestone 4 – Internal Review & Finalization**
+Timeline: 2-3rd month
 
-* Refactor codebase, kiểm thử edge cases.
-* Tổng hợp toàn bộ tài liệu (`vote-docs`, `handover.md`, schema, lessons learned).
-* Chuẩn bị đầu ra sạch để bàn giao cho nhóm Demo App.
+***
+
+**💻 Milestone 3 – Build CLI Tool & Draft Documentation**
+
+* Develop the **vote-cli** using Node.js CLI (or Rust CLI) to allow:
+  * Creating polls
+  * Casting votes
+  * Viewing results
+* Integrate **vote-core** with CLI and test-env for end-to-end functionality.
+* Draft technical documentation: project structure, module diagrams, and usage guides.
+
+TImeline: 4-5th month
+
+***
+
+**🧪 Milestone 4 – Internal Review & Finalization**
+
+* Refactor and optimize the codebase; test edge cases and uncommon scenarios.
+* Compile all documentation: **vote-docs**, **handover.md**, JSON schemas, and lessons learned.
+* Prepare a clean, production-ready package for handover to the Demo App development team.
+
+Timeline: 6th month
