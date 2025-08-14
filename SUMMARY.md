@@ -34,6 +34,7 @@
     * [Problem](proposal/3rdstage-voting-app/proposal-draft/problem.md)
     * [Solution](proposal/3rdstage-voting-app/proposal-draft/solution.md)
   * [Technical details](proposal/3rdstage-voting-app/technical-details/README.md)
+    * [Research](proposal/3rdstage-voting-app/technical-details/research.md)
     * [App flow & wireframe](proposal/3rdstage-voting-app/technical-details/app-flow.md)
     * [App UX/UI](proposal/3rdstage-voting-app/technical-details/app-ux-ui.md)
     * [Demo design](proposal/3rdstage-voting-app/technical-details/demo-design.md)
