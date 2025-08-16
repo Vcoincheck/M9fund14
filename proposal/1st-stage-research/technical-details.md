@@ -1,6 +1,14 @@
 # Technical details
 
+
+
 <figure><img src="../../.gitbook/assets/Milestone1 _ Mermaid Chart-2025-08-11-083720.png" alt=""><figcaption></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/M96.png" alt=""><figcaption></figcaption></figure>
+
+
 
 **Main Flow Explanation**:
 

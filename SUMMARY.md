@@ -5,7 +5,7 @@
 ## Overview
 
 * [What is Midnight](overview/quickstart.md)
-* [Technical problem](overview/publish-your-docs/README.md)
+* [Technical](overview/publish-your-docs/README.md)
   * [Recently](overview/publish-your-docs/thuc-tai.md)
   * [Potential](overview/publish-your-docs/tiem-nang.md)
 
@@ -41,4 +41,7 @@
   * [Roadmap](proposal/3rdstage-voting-app/roadmap.md)
   * [Budget](proposal/3rdstage-voting-app/budget.md)
   * [landing page](proposal/3rdstage-voting-app/landing-page.md)
-* [Integrations](proposal/integrations.md)
+
+## Basic-knowledge
+
+* [Zero-knowledge](basic-knowledge/zero-knowledge.md)
