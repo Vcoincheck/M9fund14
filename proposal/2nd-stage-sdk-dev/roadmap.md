@@ -1,6 +1,6 @@
 # Roadmap
 
-**🧩 Milestone 1 – Project Setup & SDK Design**
+### &#x20;**Milestone 1 – Project Setup & SDK Design**
 
 * Set up the GitHub repository and initial codebase structure.
 * Define interfaces between **vote-core**, **vote-test-env**, and **vote-cli**.
@@ -11,7 +11,7 @@ Timeline: 1st month
 
 ***
 
-**🔧 Milestone 2 – Develop vote-core & test-env**
+### &#x20;**Milestone 2 – Develop vote-core & test-env**
 
 * Implement **core voting logic**: create polls, cast votes, tally results, and export final outcomes.
 * Build the simulated testing environment (**vote-test-env**) using JSON datasets and voter list files.
@@ -21,7 +21,7 @@ Timeline: 2-3rd month
 
 ***
 
-**💻 Milestone 3 – Build CLI Tool & Draft Documentation**
+### &#x20;**Milestone 3 – Build CLI Tool & Draft Documentation**
 
 * Develop the **vote-cli** using Node.js CLI (or Rust CLI) to allow:
   * Creating polls
@@ -34,7 +34,7 @@ TImeline: 4-5th month
 
 ***
 
-**🧪 Milestone 4 – Internal Review & Finalization**
+### &#x20;**Milestone 4 – Internal Review & Finalization**
 
 * Refactor and optimize the codebase; test edge cases and uncommon scenarios.
 * Compile all documentation: **vote-docs**, **handover.md**, JSON schemas, and lessons learned.

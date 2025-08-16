@@ -1,11 +1,12 @@
 # Phase 4 - Release & report
 
-**Description:**\
+### **Description:**
+
 Consolidate, test, and finalize the complete prototype product. Ensure consistency across all modules (`vote-core`, `vote-test-env`, `vote-cli`) and technical documentation (`vote-docs`). Prepare a solid foundation for other teams to build upon.
 
 ***
 
-**✅ Main Tasks:**
+### &#x20;**Main Tasks:**
 
 **📦 Final Codebase Refactor:**
 
@@ -36,7 +37,7 @@ Consolidate, test, and finalize the complete prototype product. Ensure consisten
 
 ***
 
-**📤 Deliverables:**
+### &#x20;**Deliverables:**
 
 * &#x20;Fully refactored codebase with usage instructions
 * &#x20;Complete `vote-docs` package (PDF + Markdown)

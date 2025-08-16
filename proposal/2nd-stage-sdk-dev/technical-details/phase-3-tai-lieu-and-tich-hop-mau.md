@@ -1,11 +1,13 @@
 # Phase 3 - Documentation & Sample Integration Kit
 
-**Description**\
+### **Description**
+
+\
 Develop a command-line tool (`vote-cli`) to interact with the existing voting logic system, while also connecting directly to `vote-test-env`. This tool will help the development, testing, and SDK maintenance teams use the system more easily — even in scenarios where Midnight’s testnet is not yet stable.
 
 ***
 
-**📌 Main Tasks**
+### &#x20;**Main Tasks**
 
 **Design CLI structure**
 
@@ -36,7 +38,7 @@ Develop a command-line tool (`vote-cli`) to interact with the existing voting lo
 
 ***
 
-**📤 Deliverables**
+### &#x20;**Deliverables**
 
 * `vote-cli` source code with an easily extensible structure
 * Sample configuration files: `poll.json`, `voterSet.json`
@@ -46,8 +48,8 @@ Develop a command-line tool (`vote-cli`) to interact with the existing voting lo
 
 ***
 
-**🧩 Technical Notes**
+### &#x20;**Technical Notes**
 
 * The CLI is independent of the real Midnight testnet (can run locally)
-* Designed for easy future integration with the SDK (as proposed in Proposal #2)
+* Designed for easy future integration with the SDK
 * Modular CLI structure to support straightforward wrapping into a web UI if needed

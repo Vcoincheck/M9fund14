@@ -1,11 +1,12 @@
 # Phase 2 - SDK Feature Development
 
-**Description**\
+### **Description**
+
 Design and build the abstraction layer of the voting system — separating independent logic components for easier maintenance and scalability, enabling integration in applications using the SDK (such as the demo app or other future dApps).
 
 ***
 
-**🛠 Main Tasks**
+### &#x20;**Main Tasks**
 
 * Design a standardized module diagram for the SDK, including:
   * **VoteCore:** Voting logic
@@ -22,7 +23,7 @@ Design and build the abstraction layer of the voting system — separating indep
 
 ***
 
-**📦 Deliverables**
+### &#x20;**Deliverables**
 
 * `sdk-core` source code in a modular structure, with a README for integration guidance.
 * SDK library package in module or CLI format (alpha release).
