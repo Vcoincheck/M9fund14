@@ -11,7 +11,7 @@ According to Midnight’s roadmap, several critical features have yet to be depl
 * **Customizable compliance** — allowing rules to be tailored for different jurisdictions.
 * **Multi-resource consensus** and **capacity lease exchange** — advanced mechanisms for resource allocation and a leasing marketplace.
 * **ZK trustless bridge** — a zero-knowledge based, trust-minimized bridge without intermediaries.\
-  ([medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb?utm_source=chatgpt.com))
+  ([medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb))
 
 ***
 
@@ -21,7 +21,7 @@ Currently, there’s limited clarity on:
 
 * **Token Generation Event (TGE)** and deployment details for **NIGHT** token — these remain vague in official docs.
 * **PoS or block producer mechanisms on mainnet** are still in testnet phase, with no confirmed process for validator selection or management.\
-  ([beincrypto.com](https://beincrypto.com/midnight-launches-testnet/?utm_source=chatgpt.com), [medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb?utm_source=chatgpt.com))
+  ([beincrypto.com](https://beincrypto.com/midnight-launches-testnet), [medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb))
 
 ***
 
@@ -32,7 +32,7 @@ From a technical perspective, certain developer support and infrastructure eleme
 * **Comprehensive SDKs for popular programming languages** beyond TypeScript/Compact remain unclear in documentation.
 * **Official monitoring and telemetry systems** are not yet in place — current mentions remain at the planning stage.
 * **DAO governance or automation tooling** (e.g., governance dashboards) has not been detailed in public documentation.\
-  ([medium.com](https://medium.com/roymavila/midnight-a-new-era-of-web3-applications-29b722e2d908?utm_source=chatgpt.com), [midnight.network](https://midnight.network/blog/how-developers-level-up-with-the-midnight-network?utm_source=chatgpt.com))
+  ([medium.com](https://medium.com/roymavila/midnight-a-new-era-of-web3-applications-29b722e2d908), [midnight.network](https://midnight.network/blog/how-developers-level-up-with-the-midnight-network))
 
 ***
 
@@ -41,7 +41,7 @@ From a technical perspective, certain developer support and infrastructure eleme
 Some roadmap sections remain broad or lack clear timelines:
 
 * **Proof-of-concept or test builds** for Multi-resource consensus, Custom spend logic, and Capacity lease exchange are still in the “Beyond mainnet” phase, with no public demos or testnets available.\
-  ([medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb?utm_source=chatgpt.com))
+  ([medium.com](https://medium.com/tap-in-with-taptools/breaking-down-the-midnight-nightpaper-2ddf8c9afdfb))
 
 ***
 
